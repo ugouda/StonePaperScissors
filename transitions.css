@@ -1,0 +1,5 @@
+.rock:hover, .paper:hover, .scissors:hover{
+    box-shadow: 3px 5px 10px  rgba(0, 0, 0, 0.349);
+    transform: translateY(-0px);
+    transform: translateX(-5px);
+}
