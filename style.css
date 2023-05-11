@@ -55,24 +55,38 @@ body {
 }
 
 #rock {
-    background: url(./images/stone.jpeg) no-repeat;
-    background-size: contain;
+    /* background: url(./images/stone.jpeg) no-repeat;
+    background-size: contain; */
+    width: auto;
+    height: auto;
     border-radius: 50%;
     /* background-position: center; */
 }
+
+
 
 #paper {
-    background: url(./images/paper.jpeg) no-repeat;
-    background-size: contain;
+    /* background: url(./images/paper.jpeg) no-repeat;
+    background-size: contain; */
+    width: auto;
+    height: auto;
     border-radius: 50%;
     /* background-position: center; */
 }
 
+
+
 #scissors {
-    background: url(./images/scissors.jpeg) no-repeat;
-    background-size: contain;
+    /* background: url(./images/scissors.jpeg) no-repeat;
+    background-size: contain; */
+    width: auto;
+    height: auto;
     border-radius: 50%;
     /* background-position: center; */
+}
+
+#rock img, #paper img, #scissors img{
+    border-radius: 50%;
 }
 
 .choices {
