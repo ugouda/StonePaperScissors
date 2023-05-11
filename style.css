@@ -55,21 +55,21 @@ body {
 }
 
 #rock {
-    background: url(/images/stone.jpeg) no-repeat;
+    background: url(./images/stone.jpeg) no-repeat;
     background-size: contain;
     border-radius: 50%;
     /* background-position: center; */
 }
 
 #paper {
-    background: url(/images/paper.jpeg) no-repeat;
+    background: url(./images/paper.jpeg) no-repeat;
     background-size: contain;
     border-radius: 50%;
     /* background-position: center; */
 }
 
 #scissors {
-    background: url(/images/scissors.jpeg) no-repeat;
+    background: url(./images/scissors.jpeg) no-repeat;
     background-size: contain;
     border-radius: 50%;
     /* background-position: center; */
