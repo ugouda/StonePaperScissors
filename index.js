@@ -148,7 +148,7 @@ const point = () => {
     }
 }
 const restart = () => {
-    location.href = 'http://127.0.0.1:5500/index.html'
+    location.href = 'https://ugouda.github.io/StonePaperScissors/'
 }
 let num;
 let uPaper;
