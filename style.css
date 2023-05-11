@@ -1,0 +1,174 @@
+:root {
+    --btn-color: #18dcff;
+
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body h1 {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+body p {
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.609);
+}
+
+#rock,
+#paper,
+#scissors {
+    width: 7vw;
+    height: 7vw;
+    margin: .5rem;
+}
+
+.rock,
+.paper,
+.scissors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: .5rem;
+    padding: 1rem;
+    background: var(--btn-color);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    transform: translateY(10px);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #91efff;
+}
+
+#rock {
+    background: url(/images/stone.jpeg) no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    /* background-position: center; */
+}
+
+#paper {
+    background: url(/images/paper.jpeg) no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    /* background-position: center; */
+}
+
+#scissors {
+    background: url(/images/scissors.jpeg) no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    /* background-position: center; */
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.compitation {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem;
+}
+
+.YOUsection,
+.COMPsection {
+    padding: .5rem 2rem;
+    margin: .5rem;
+    border-radius: 10px;
+    background: var(--btn-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.YOUsection h5,
+.COMPsection h5 {
+    padding: .7rem;
+    text-align: center;
+}
+
+#yourChoiceImg,
+#compChoiceImg {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* background: #000;
+    background-position: center;
+    background-size: contain; */
+    width: 20vw;
+    height: 20vw;
+    /* border-radius: 50%; */
+}
+
+#yourChoiceImg img,
+#compChoiceImg img {
+    border-radius: 50%;
+}
+
+#yourChoiceText h3,
+#compChoiceText h3 {
+    text-align: center;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
+td,
+tr {
+    background: var(--btn-color);
+    text-align: center;
+    width: 40vw;
+    padding: .5rem;
+    border: 1px solid black;
+}
+
+#result {
+    text-align: center;
+    margin: 1rem;
+    /* background: var(--btn-color); */
+}
+
+button {
+    padding: .5rem 1rem;
+    background: var(--btn-color);
+    border: none;
+    margin: .5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#winComp,
+#winYou {
+    display: none;
+}
+
+.youAndcomp {
+    height: fit-content;
+}
+aside{
+    margin: 2rem 0;
+}
+#yourPlusPoint, #compPlusPoint{
+    color: blue;
+    display: none;
+}
