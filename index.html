@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="transitions.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans&family=Quicksand&family=Raleway:wght@200&family=Roboto:wght@300;400&family=Tilt+Neon&family=Varela+Round&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section id="section">
+            <div class="start">
+                <!-- <p>select choice</p> -->
+                <div class="choices">
+                    <div class="rock" onclick="rock(), point()">
+                        <span id="rock"></span>
+                        <h3>Rock</h3>
+                    </div>
+                    <div class="paper" onclick="paper(), point()">
+                        <span id="paper"></span>
+                        <h3>Paper</h3>
+                    </div>
+                    <div class="scissors" onclick="scissor(), point()">
+                        <span id="scissors"></span>
+                        <h3>Scissors</h3>
+                    </div>
+                </div>
+                <div class="compitation">
+                    <div class="YOUsection youAndcomp">
+                        <h5>Your Choice</h5>
+                        <div id="yourChoiceImg">
+                            <!-- <img src="" alt=""> -->
+                        </div>
+                        <span id="yourChoiceText"></span>
+                        <div id="yourPlusPoint">
+                            +1
+                        </div>
+                    </div>
+                    <div class="COMPsection youAndcomp">
+                        <h5>Computer Choice</h5>
+                        <div id="compChoiceImg"></div>
+                        <span id="compChoiceText"></span>
+                        <div id="compPlusPoint">
+                            +1
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <aside>
+                <table>
+                    <tr>
+                        <td>You</td>
+                        <td>Computer</td>
+                    </tr>
+                    <tr>
+                        <td id="tData1"></td>
+                        <td id="tData2"></td>
+                    </tr>
+                </table>
+            </aside>
+
+            <div id="result">
+                <div id="winComp">
+                    <h3>Computer won this match</h3>
+                    <br>
+                    <button onclick="restart()">Restart</button>
+                </div>
+                <div id="winYou">
+                    <h3>Congrats🎉. You won this match</h3>
+                    <br>
+                    <button onclick="restart()">Restart</button>
+                </div>
+            </div>
+    </main>
+</body>
+<script src="index.js"></script>
+
+</html>
